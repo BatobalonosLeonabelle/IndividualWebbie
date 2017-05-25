@@ -1,0 +1,37 @@
+}
+.members {
+	border: solid 1px gray;
+	width: 400px;
+	height: 320px;
+	display: block;
+	margin: 10px 432px;
+}
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 360px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+	position: absolute;
+	z-index: 1;
+	top: -5px;
+	left: 105%
+}
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+ h3 {
+	font size: 20px;
+	text-shadow: 3px 2px #fbceb1;
+}
+.tooltiptext > p {
+	font-size: 0.8em;
+	text-shadow: 2px 1px #ff2965;
+}
